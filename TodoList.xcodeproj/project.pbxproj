@@ -13,6 +13,7 @@
 		4D66F00E27E05DA100C1C5C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D66F00C27E05DA100C1C5C8 /* Main.storyboard */; };
 		4D66F01027E05DA300C1C5C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D66F00F27E05DA300C1C5C8 /* Assets.xcassets */; };
 		4D66F01327E05DA300C1C5C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D66F01127E05DA300C1C5C8 /* LaunchScreen.storyboard */; };
+		4D66F01B27E07A6000C1C5C8 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D66F01A27E07A6000C1C5C8 /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		4D66F00F27E05DA300C1C5C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D66F01227E05DA300C1C5C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D66F01427E05DA300C1C5C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D66F01A27E07A6000C1C5C8 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				4D66F00F27E05DA300C1C5C8 /* Assets.xcassets */,
 				4D66F01127E05DA300C1C5C8 /* LaunchScreen.storyboard */,
 				4D66F01427E05DA300C1C5C8 /* Info.plist */,
+				4D66F01A27E07A6000C1C5C8 /* Task.swift */,
 			);
 			path = TodoList;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D66F01B27E07A6000C1C5C8 /* Task.swift in Sources */,
 				4D66F00B27E05DA100C1C5C8 /* ViewController.swift in Sources */,
 				4D66F00727E05DA100C1C5C8 /* AppDelegate.swift in Sources */,
 				4D66F00927E05DA100C1C5C8 /* SceneDelegate.swift in Sources */,
